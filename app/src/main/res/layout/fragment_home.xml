@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="#ffffff">
+
+
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Categories"
+            android:textSize="36sp"
+            android:fontFamily="@font/open_sans_bold"
+            android:textColor="@color/black"
+            android:padding="20dp"
+            android:textAllCaps="true"/>
+
+        <RelativeLayout
+            android:id="@+id/cooking"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_margin="20dp"
+            android:animateLayoutChanges="true"
+            android:background="@drawable/cooking"
+            android:elevation="2dp" />
+
+        <RelativeLayout
+            android:id="@+id/vegetable"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_margin="20dp"
+            android:animateLayoutChanges="true"
+            android:background="@drawable/vegetable"
+            android:elevation="2dp" />
+
+
+    </LinearLayout>
+
+
+
+    
+</ScrollView>
